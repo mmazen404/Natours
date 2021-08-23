@@ -1,16 +1,15 @@
-/*
-COLORS:
-
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
-
-*/
-
+// Colors
 $color-primary: #20afcf;
 $color-primary-light: #21d4fd;
 $color-primary-dark: #b721ff;
 
+$color-grey-light-1: #f7f7f7;
+
 $color-grey-dark: #777;
 
 $color-black-shadow: rgba(0, 0, 0, 0.2);
+
+// Grid
+$gird-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
