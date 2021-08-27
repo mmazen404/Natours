@@ -27,11 +27,23 @@
     ),
     url(../img/nat-4.jpg);
   background-size: cover;
-  transform: skewY(-7deg);
+  transform: skewY(-5deg);
 
   &__row {
     display: flex;
     justify-content: space-evenly;
-    transform: skewY(7deg);
+    transform: skewY(5deg);
+  }
+}
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0 50rem 0;
+  margin-top: -20vh;
+
+  &__row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
